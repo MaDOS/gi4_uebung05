@@ -1,0 +1,18 @@
+addr	data		wachstumsrichtung |
+0000	int1				  |
+0001	int2				  v
+0002	int3
+0003	int4
+0004 	int5
+0005	int6
+0006	str[0-3]
+0007	str[4-7]
+0008	str[8-11]
+0009	str[12-15]
+000A	str[16-19]
+000B	double1_LSBs
+000C	double1_MSBs
+000D	double2_LSBs
+000E	double2_MSBs
+
+Bei dem Versuch 30 Zeichen im string zu Speichern werden die beiden doubles überschrieben.

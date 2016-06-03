@@ -1,0 +1,5 @@
+Die Parameter a,b werden vor dem call auf den stack gepusht. Sie liegen vom genau 8 bytes vor dem Stackpointer nach Einrichten der Funktion max.
+Rückgabewerte wiederrum werden abhängig vom Datentyp zurück gegeben:
+int oder kleiner wird über eax zurückgegeben.
+double oder größer über ST0, ST1.
+Und in allen anderen fällen entweder über den Stack oder sie werden in eine referenz geschrieben die als Parameter an die Funktion übergeben wird.

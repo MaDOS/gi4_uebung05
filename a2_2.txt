@@ -1,0 +1,16 @@
+addr	data
+0000	return addr 
+0001	base pointer A
+0002	int i
+0003	int j
+0004	int k
+0005	char a
+0006	char b
+0007	return addr 
+0008	base pointer B
+0009	int l
+000A	int m
+000B	double x_LSBs
+000C	double x_MSBs
+000D	double y_LSBs
+000E	double y_MSBs <- stack pointer
